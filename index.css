@@ -41,3 +41,101 @@ body {
   #port>a{
     font-size: x-large;
 }
+
+
+#main-cont{
+
+  width: 100%;
+  border: 1px solid white;
+  /* height: 1200px; */
+ 
+}
+#homep{
+width: 100%;
+height: 500px;
+/* border: 1px solid yellow; */
+margin-top: 100px;
+display: flex;
+
+}
+
+#homep>#hlf{
+
+  width: 55%;
+  height: 100%;
+  /* border: 1px solid grey; */
+
+}
+#hlf>#hl{
+  width: 80%;
+  margin-left: 10%;
+margin-top: 10%;
+}
+
+#hlf h1{
+  font-size: 65px;
+
+}
+#hlf h2{
+  font-size: 40px;
+  font-family: serif;
+}
+
+
+#homep>#hr{
+
+  width: 45%;
+  height: 100%;
+  /* border: 1px solid grey; */
+
+}
+
+/* #para{
+  width: 90%;
+  font-family: serif;
+} */
+.container {
+  margin-top: -5%;
+  
+}
+.container p{
+font-size: 20px;
+margin-top: 35px;
+
+}
+.container button {
+  padding: 4px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.basicinfo{
+  margin-top: 25px;
+
+}
+.basicinfo>#contact-github{
+  margin: 0px 25px 0px 0px;
+}
+
+.basicinfo>#contact-linkedin{
+  margin: 0px 25px 0px 0px;
+  font-size: larger;
+}
+
+
+#bsi>p{
+  font-size: 38px;
+}
+#photo{
+  width: 20%;
+  height: 50px;
+  /* border: 1px solid grey ; */
+  /* margin-top: ; */
+  margin-left: 10%;
+  border-radius: 5px;
+}
+#photo img{
+  height: 400px;
+  width: 320px;
+  border-radius: 10%;
+}
