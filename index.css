@@ -139,3 +139,33 @@ margin-top: 35px;
   width: 320px;
   border-radius: 10%;
 }
+
+#aboutme{
+  text-align: center;
+  margin-bottom: 40px;
+}
+#about{
+  margin: auto;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  background-color: #434343;
+
+}
+.positive{
+  width: 35%;
+} 
+.positive img{
+  height: 500px;
+}
+
+#user-detail-intro{
+  width: 50%;
+  height: auto;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
