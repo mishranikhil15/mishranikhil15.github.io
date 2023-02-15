@@ -236,23 +236,23 @@ body {
  
 }
 
-.projectimg{
+.project-card{
   text-align: center;
   border: 1px solid gainsboro;
   padding: 10px;
   border-radius: 20px;
 }
 
-.projectimg img{
+.project-card img{
   width: 100%;
   height: 400px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   border-radius: 10px;
   padding: 5px;
 }
-.projectimg h3{
+.project-card h3{
   margin: 7px;
 }
-.projectimg p{
+.project-card p{
   margin: 7px;
 }
