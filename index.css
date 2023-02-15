@@ -212,9 +212,47 @@ body {
   display: block;
   width: 200px;
   margin: 15px;
-  margin-left: 45px;
+  margin-left: 35px;
   text-align: center;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   
+}
+
+#pro{
+  text-align: center;
+  margin: 20px;
+}
+
+#projects{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: auto;
+  /* text-align: center; */
+  /* align-items: center; */
+ 
+}
+
+.projectimg{
+  text-align: center;
+  border: 1px solid gainsboro;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.projectimg img{
+  width: 100%;
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.projectimg h3{
+  margin: 7px;
+}
+.projectimg p{
+  margin: 7px;
 }
