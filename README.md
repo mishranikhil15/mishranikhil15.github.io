@@ -36,6 +36,7 @@ Deployed link or video link : class="project-deployed-link"
 Each skills card in the Skills section should have class="skills-card" and the following:
 Image : class="skills-card-img"
 Name : class="skills-card-name"
+
 There must be two buttons for resume. Clicking on them should open the resume in a new tab and download it as a PDF. They must have the following IDs:
 For the button in the Resume section : id="resume-button-1"
 For the button in the Home/About section : id="resume-button-2"

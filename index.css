@@ -201,14 +201,14 @@ body {
   /* align-items: center; */
  
 }
-.skillimages{
+.skills-card{
   text-align: center;
   border: 1px solid gainsboro;
   padding: 10px;
   border-radius: 20px;
 }
 
-.skillimages img {
+.skills-card img {
   display: block;
   width: 200px;
   margin: 15px;
