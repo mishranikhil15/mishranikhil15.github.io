@@ -256,3 +256,9 @@ body {
 .project-card p{
   margin: 7px;
 }
+.project-github-link{
+  display: inline;
+}
+.project-deployed-link{
+  display: inline;
+}
