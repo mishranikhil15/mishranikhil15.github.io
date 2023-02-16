@@ -121,11 +121,11 @@ body {
 
 }
 
-.basicinfo>#contact-github {
+.basicinfo>#github-contact {
   margin: 0px 25px 0px 0px;
 }
 
-.basicinfo>#contact-linkedin {
+.basicinfo>#linkedin-contact {
   margin: 0px 25px 0px 0px;
   font-size: larger;
 }
@@ -261,4 +261,19 @@ body {
 }
 .project-deployed-link{
   display: inline;
+}
+
+#contact{
+  text-align: center;
+  margin: 45px;
+}
+
+#contact_inner{
+  /* width: 400px; */
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 25px;
 }
