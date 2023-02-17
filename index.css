@@ -269,6 +269,30 @@ margin-top: 20px;
 .project-deployed-link{
   display: inline;
 }
+.react-activity-calendar>h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#github-top-langs{
+  height: 200px;
+  width: 350px;
+}
+
+#My_github_details{
+  width: 80%;
+  margin: auto;
+  gap: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 45px;
+}
+.calendar{
+  
+  width: 80%;
+/* margin-top: 20px; */
+}
+
 
 #contact{
   text-align: center;
