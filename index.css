@@ -28,13 +28,13 @@ body {
   margin-left: 20px;
 }
 
-#nav {
+#in {
   display: flex;
   justify-content: space-evenly;
   margin-right: 40px;
 }
 
-#nav div a {
+#in div a {
   margin: 15px;
   padding: 10px;
 
