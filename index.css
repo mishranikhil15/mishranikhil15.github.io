@@ -95,6 +95,12 @@ nav ul li a:hover::after{
       display: block;
       font-size: 22px;
   }
+  .custom-width{
+    width: -webkit-fill-available;
+  }
+  #user-detail-intro{
+    width: 90%;
+  }
   nav ul{
 
       position: fixed;
@@ -140,8 +146,9 @@ nav ul li a:hover::after{
 #home>#hlf {
 
   width: 55%;
-  height: 100%;
+  height: fit-content;
   /* border: 1px solid grey; */
+  margin-bottom:1rem;
 
 }
 
@@ -266,13 +273,11 @@ nav ul li a:hover::after{
 
 }
 
-.positive {
-  width: 35%;
-}
 
 .positive img {
-  margin: 30px;
-  height: 500px;
+  /* margin: 30px;
+  height: 500px; */
+  width: 100%;
 }
 
 #user-detail-intro {
@@ -375,8 +380,8 @@ nav ul li a:hover::after{
 }
 
 #github-top-langs {
-  height: 200px;
-  width: 350px;
+  /* height: 200px;
+  width: 350px; */
 }
 
 #My_github_details {
@@ -386,18 +391,24 @@ nav ul li a:hover::after{
   display: flex;
   justify-content: space-evenly;
   margin-top: 45px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .calendar {
 
-  width: 80%;
+  width: 90%;
   /* margin-top: 20px; */
 }
 
 
 #contact {
-  text-align: center;
-  margin: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3rem;
+ margin-top: 1rem;
+ margin-bottom: 2rem;
 }
 
 #contact_inner {
@@ -406,8 +417,7 @@ nav ul li a:hover::after{
   justify-content: space-evenly;
   text-align: center;
   margin-top: 30px;
-  font-weight: 400;
-  font-size: 25px;
+  font-weight: 400; gap: 1rem;
 }
 
 
@@ -419,6 +429,15 @@ nav ul li a:hover::after{
     /* border: 1px solid red; */
     margin-left: 160px;
     margin: auto;
+  }
+  .custom-width{
+    width: -webkit-fill-available;
+  }
+  #user-detail-intro{
+    width: 90%;
+  }
+  #home>#hlf{
+    width: auto;
   }
 
   #about {
@@ -444,7 +463,8 @@ nav ul li a:hover::after{
     /* grid-template-columns: repeat(1, 1fr); */
     flex-direction: column;
     height: auto;
-    margin: auto;
+    margin: auto; margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   #contact_inner {
@@ -452,7 +472,9 @@ nav ul li a:hover::after{
     height: auto;
     margin: auto;
   }
-
+  .positive img{
+    width: 100%;
+  }
 }
 
 /* medium screen */
@@ -463,6 +485,12 @@ nav ul li a:hover::after{
     /* margin-left: 160px; */
     /* border: 1px solid green; */
     margin: auto;
+  }
+  .custom-width{
+    width: -webkit-fill-available;
+  }
+  #home>#hlf{
+    width: auto;
   }
 
 
@@ -490,7 +518,8 @@ nav ul li a:hover::after{
     /* grid-template-columns: repeat(2, 1fr); */
     flex-direction: column;
     height: auto;
-    margin: auto;
+    margin: auto; margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   #contact_inner {
@@ -498,5 +527,7 @@ nav ul li a:hover::after{
     height: auto;
     margin: auto;
   }
-
+  .positive img{
+    width: 100%;
+  }
 }
