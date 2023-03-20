@@ -440,7 +440,7 @@ nav ul li a:hover::after {
   text-align: center;
   margin-top: 30px;
   font-weight: 400;
-  gap: 10rem;
+  gap: 3rem;
 }
 
 
@@ -498,6 +498,7 @@ nav ul li a:hover::after {
     flex-direction: column;
     height: auto;
     margin: auto;
+    
   }
 
   .positive img {
@@ -557,6 +558,7 @@ nav ul li a:hover::after {
     flex-direction: column;
     height: auto;
     margin: auto;
+    
   }
 
   .positive img {
