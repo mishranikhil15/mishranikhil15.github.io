@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 </head>
 
 <body>
@@ -22,7 +23,8 @@
                 <li><a class="nav-link skills" href="#skills">Skills</a></li>
                 <li><a class="nav-link projects" href="#projects">Projects</a></li>
                 <li><a class="nav-link contact" href="#contact">Contact</a></li>
-                <li id="resume-button-1"><a class="nav-link resume" id="resume-link-1" href='./resume/Nikhil_Kumar_Resume.pdf' download="Nikhil_Kumar_Resume">Resume</a></li>
+                <li id="resume-button-1"><a class="nav-link resume" id="resume-link-1"
+                        href='./resume/Nikhil_Kumar_Resume.pdf' download="Nikhil_Kumar_Resume">Resume</a></li>
                 <i class="fas fa-times" onclick="closemenu()"></i>
             </ul>
             <i class="fas fa-bars" onclick="openmenu()"></i>
@@ -30,62 +32,64 @@
     </div>
     <!-- nav bar section end -->
 
-    
 
-   
+
+
 
     <div id="main-cont">
         <!-- Home page starts   -->
         <!-- <section id="nav-link home" class="nav-link home"> -->
-            <div id="home">
-                <div id="hlf">
-                    <div id="hl">
-                        <div id="bsi">
-                            <p>Hi there 👋 </p>
-                            <h1 id="user-detail-name">I'm Nikhil Kumar </h1>
-                            <div class="container">
-                                <p>A passionate full-stack web developer trained in HTML, CSS,
-                                    Javascript, and NODE
-                                    stack with a strong set of technical as well as non-technical skills and a
-                                    dedication towards creating useful and interactive web applications.</p>
+        <div id="home">
+            <div id="hlf">
+                <div id="hl">
+                    <div id="bsi">
+                        <p>Hi there 👋 </p>
+                        <!-- <h1 id="user-detail-name">I'm Nikhil Kumar </h1> -->
+                        <div id="user-detail-name" class="text-2">Nikhil Kumar</div>
+                        <div class="text-3">And I'm a <span class="typing"></span></div>
+                        <div class="container">
+                            <p>A passionate full-stack web developer trained in HTML, CSS,
+                                Javascript, and NODE
+                                stack with a strong set of technical as well as non-technical skills and a
+                                dedication towards creating useful and interactive web applications.</p>
 
-                                <!-- <button><a class="res" href="">RESUME</a></button> -->
+                            <!-- <button><a class="res" href="">RESUME</a></button> -->
 
-
-                            </div>
-                            <div class="basicinfo">
-
-                                <a href="https://github.com/mishranikhil15"><i class="fa-brands fa-github"></i></a>
-                                <a id="github-contact" href="https://github.com/mishranikhil15"></i>GitHub</a>
-
-                                <a href="https://www.linkedin.com/in/nikhil-kumar-67442a201/"><i
-                                        class="fa-brands fa-linkedin"></i></a>
-                                <a id="linkedin-contact"
-                                    href="https://www.linkedin.com/in/nikhil-kumar-67442a201/">LinkedIn</a>
-
-                                <a href="#contact"><i class="fa-solid fa-envelope"></i></a>
-                                <a id="email-contact" href="#email">vashishtnikhil158@gmail.com</a>
-
-                               
-                            </div>
 
                         </div>
-                    </div>
+                        <div class="basicinfo">
 
+                            <a href="https://github.com/mishranikhil15"><i class="fa-brands fa-github"></i></a>
+                            <a id="github-contact" href="https://github.com/mishranikhil15"></i>GitHub</a>
+
+                            <a href="https://www.linkedin.com/in/nikhil-kumar-67442a201/"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a id="linkedin-contact"
+                                href="https://www.linkedin.com/in/nikhil-kumar-67442a201/">LinkedIn</a>
+
+                            <a href="#contact"><i class="fa-solid fa-envelope"></i></a>
+                            <a id="email-contact" href="#email">vashishtnikhil158@gmail.com</a>
+
+
+                        </div>
+
+                    </div>
                 </div>
 
-                <div id="hr">
+            </div>
 
-                    <div id="photo">
-                        <img class="home-img" src="./images/189 (1).jpg" alt="Screenshot-2022-12-22-143719-3">
-                    </div>
+            <div id="hr">
 
-
+                <div id="photo">
+                    <img class="home-img" src="./images/189 (1).jpg" alt="Screenshot-2022-12-22-143719-3">
                 </div>
-
 
 
             </div>
+
+
+
+        </div>
         <!-- </section> -->
         <!-- Home page Ends   -->
 
@@ -106,19 +110,20 @@
                 development, interpersonal skills, leadership skills, remote working, team collaboration etc. -->
 
 
-                 An aspiring Backend Developer. Like to work with Node.js, MongoDB, and JavaScript. Hands-on experience
+                An aspiring Backend Developer. Like to work with Node.js, MongoDB, and JavaScript. Hands-on experience
                 of cloning websites. Seeking opportunity where I can use my skills to grow the organization.
 
                 I learnt Full Stack Web Development from Masai School(India's first Skill building School "Driven by
                 Outcomes, Fuelled by Ambitions.")
 
                 1200+ Hours Practical Coding , ⌛100+ Hours Soft Skill Development , 300 Hours Data Structures &
-                Algorithms , 100+ Hours Math & Logic . 
+                Algorithms , 100+ Hours Math & Logic .
 
                 <!-- <a id="resume-button-2" class="nav-link resume" href="./resume/Nikhil_Kumar_Resume.pdf" download>
                     <button>Resume</button></a> -->
 
-                    <button  id="resume-button-2"><a id="resume-link-2" href='./resume/Nikhil_Kumar_Resume.pdf' download="Nikhil-Resume">RESUME</a></button>
+                <button id="resume-button-2"><a id="resume-link-2" href='./resume/Nikhil_Kumar_Resume.pdf'
+                        download="Nikhil-Resume">RESUME</a></button>
 
             </div>
 
@@ -308,7 +313,7 @@
     </div>
     <!-- contact ends here -->
 
-<!-- <p>my resume is not working</p> -->
+    <!-- <p>my resume is not working</p> -->
 
 
 
@@ -326,8 +331,5 @@
 
 
 
+
 </html>
-
-
-
-
