@@ -18,7 +18,7 @@ body {
   width: 100%;
   height: 60px;
   /* border: 1px solid grey; */
-  /* display: flex;
+/* display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: large;
@@ -28,8 +28,8 @@ body {
 
 /* #nav-menu a {
   margin-left: 20px;
-} */ */
-
+} */
+*/
 /* #in {
   display: flex;
   justify-content: space-evenly;
@@ -46,38 +46,44 @@ body {
   font-size: x-large;
 } */
 
-#nav-menu{
+#nav-menu {
   width: 100%;
   height: auto;
   padding: 10px 10%;
   position: fixed;
   background-color: rgb(46, 41, 41);
 }
-nav{
-  display:flex;
+
+nav {
+  display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-nav .fas{
+
+nav .fas {
   display: none;
 }
-.logo{
+
+.logo {
   font-size: 30px;
   text-decoration: none;
 }
-nav ul li{
+
+nav ul li {
   display: inline-block;
   list-style: none;
   margin: 10px 20px;
 }
-nav ul li a{
+
+nav ul li a {
   color: rgb(97, 223, 97);
   text-decoration: none;
   font-size: 20px;
   position: relative;
 }
-nav ul li a::after{
+
+nav ul li a::after {
   content: '';
   width: 0;
   height: 3px;
@@ -87,50 +93,58 @@ nav ul li a::after{
   bottom: -6px;
   transition: 0.5s;
 }
-nav ul li a:hover::after{
+
+nav ul li a:hover::after {
   width: 100%;
 }
-@media screen and (min-width:320px) and (max-width:650px){
-  nav .fas{
-      display: block;
-      font-size: 22px;
+
+@media screen and (min-width:320px) and (max-width:650px) {
+  nav .fas {
+    display: block;
+    font-size: 22px;
   }
-  .custom-width{
+
+  .custom-width {
     width: -webkit-fill-available;
   }
-  #user-detail-intro{
+
+  #user-detail-intro {
     width: 90%;
   }
-  nav ul{
 
-      position: fixed;
-      top: 0;
-      right: -200px;
-      width: 200px;
-      height: 100vh;
-      padding-top: 50px;
-      background-color: rgb(46, 41, 41);
-      z-index: 2;
+  nav ul {
+
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    background-color: rgb(46, 41, 41);
+    z-index: 2;
   }
-  nav ul li{
-      display: block;
-      margin: 22px;
+
+  nav ul li {
+    display: block;
+    margin: 22px;
   }
-  nav ul .fas{
-      position: absolute;
-      top:22px;
-      left:22px;
-      cursor: pointer;
+
+  nav ul .fas {
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    cursor: pointer;
   }
 }
+
 /* nav bar css end */
 
- #main-cont {
+#main-cont {
 
   width: 100%;
   border: 1px solid white;
   height: 1200px;
- }
+}
 
 
 
@@ -148,7 +162,7 @@ nav ul li a:hover::after{
   width: 55%;
   height: fit-content;
   /* border: 1px solid grey; */
-  margin-bottom:1rem;
+  margin-bottom: 1rem;
 
 }
 
@@ -158,19 +172,22 @@ nav ul li a:hover::after{
   margin-top: 10%;
 }
 
- .text-1 {
+.text-1 {
   font-size: 27px;
 }
- .text-2 {
+
+.text-2 {
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
 }
- .text-3 {
+
+.text-3 {
   font-size: 40px;
   margin: 5px 0;
 }
- .text-3 span {
+
+.text-3 span {
   color: Tomato;
   font-weight: 500;
 }
@@ -247,7 +264,7 @@ nav ul li a:hover::after{
   height: 400px;
   width: 320px;
   border-radius: 10%;
-} 
+}
 
 #aboutme {
   text-align: center;
@@ -258,6 +275,8 @@ nav ul li a:hover::after{
 #resume-button-2 {
   display: block;
   margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
   /* text-align: center; */
 }
 
@@ -377,14 +396,16 @@ nav ul li a:hover::after{
 .react-activity-calendar>h1 {
   text-align: center;
   margin-top: 40px;
+  /* border: 1px solid red; */
 }
 
-#github-top-langs {
+/* #github-top-langs {
   /* height: 200px;
   width: 350px; */
-}
+/* } */
 
-#My_github_details {
+ #My_github_details {
+
   width: 80%;
   margin: auto;
   gap: 30px;
@@ -393,6 +414,7 @@ nav ul li a:hover::after{
   margin-top: 45px;
   margin-top: 1rem;
   margin-bottom: 1rem;
+
 }
 
 .calendar {
@@ -407,8 +429,8 @@ nav ul li a:hover::after{
   flex-direction: column;
   align-items: center;
   font-size: 1.3rem;
- margin-top: 1rem;
- margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 #contact_inner {
@@ -417,7 +439,8 @@ nav ul li a:hover::after{
   justify-content: space-evenly;
   text-align: center;
   margin-top: 30px;
-  font-weight: 400; gap: 1rem;
+  font-weight: 400;
+  gap: 1rem;
 }
 
 
@@ -425,18 +448,21 @@ nav ul li a:hover::after{
 @media all and (min-width:200px) and (max-width:800px) {
   #home {
     flex-direction: column;
-    height:1200px;
+    height: 1200px;
     /* border: 1px solid red; */
     margin-left: 160px;
     margin: auto;
   }
-  .custom-width{
+
+  .custom-width {
     width: -webkit-fill-available;
   }
-  #user-detail-intro{
+
+  #user-detail-intro {
     width: 90%;
   }
-  #home>#hlf{
+
+  #home>#hlf {
     width: auto;
   }
 
@@ -463,7 +489,8 @@ nav ul li a:hover::after{
     /* grid-template-columns: repeat(1, 1fr); */
     flex-direction: column;
     height: auto;
-    margin: auto; margin-top: 1rem;
+    margin: auto;
+    margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
@@ -472,7 +499,8 @@ nav ul li a:hover::after{
     height: auto;
     margin: auto;
   }
-  .positive img{
+
+  .positive img {
     width: 100%;
   }
 }
@@ -486,10 +514,12 @@ nav ul li a:hover::after{
     /* border: 1px solid green; */
     margin: auto;
   }
-  .custom-width{
+
+  .custom-width {
     width: -webkit-fill-available;
   }
-  #home>#hlf{
+
+  #home>#hlf {
     width: auto;
   }
 
@@ -518,7 +548,8 @@ nav ul li a:hover::after{
     /* grid-template-columns: repeat(2, 1fr); */
     flex-direction: column;
     height: auto;
-    margin: auto; margin-top: 1rem;
+    margin: auto;
+    margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
@@ -527,7 +558,8 @@ nav ul li a:hover::after{
     height: auto;
     margin: auto;
   }
-  .positive img{
+
+  .positive img {
     width: 100%;
   }
 }
