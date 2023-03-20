@@ -11,6 +11,8 @@ body {
   color: #fff;
 }
 
+
+
 #nav-menu {
   position: fixed;
   width: 100%;
@@ -45,13 +47,14 @@ body {
 }
 
 
-#main-cont {
+ #main-cont {
 
   width: 100%;
   border: 1px solid white;
-  /* height: 1200px; */
+  height: 1200px;
+ }
 
-}
+
 
 #home {
   width: 100%;
@@ -148,18 +151,18 @@ body {
   height: 400px;
   width: 320px;
   border-radius: 10%;
-}
+} 
 
 #aboutme {
   text-align: center;
   margin-bottom: 40px;
-  
+
 }
 
-#resume-button-2{
-display: block;
-margin-top: 20px;
-/* text-align: center; */
+#resume-button-2 {
+  display: block;
+  margin-top: 20px;
+  /* text-align: center; */
 }
 
 #about {
@@ -206,9 +209,10 @@ margin-top: 20px;
   margin: auto;
   /* text-align: center; */
   /* align-items: center; */
- 
+
 }
-.skills-card{
+
+.skills-card {
   text-align: center;
   border: 1px solid gainsboro;
   padding: 10px;
@@ -223,15 +227,15 @@ margin-top: 20px;
   text-align: center;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-  
+
 }
 
-#pro{
+#pro {
   text-align: center;
   margin: 20px;
 }
 
-#projects{
+#projects {
   width: 80%;
   margin: auto;
   display: grid;
@@ -240,46 +244,51 @@ margin-top: 20px;
   margin: auto;
   /* text-align: center; */
   /* align-items: center; */
- 
+
 }
 
-.project-card{
+.project-card {
   text-align: center;
   border: 1px solid gainsboro;
   padding: 10px;
   border-radius: 20px;
 }
 
-.project-card img{
+.project-card img {
   width: 100%;
   height: 400px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   border-radius: 10px;
   padding: 5px;
 }
-.project-card h3{
+
+.project-card h3 {
   margin: 7px;
-}
-.project-card p{
-  margin: 7px;
-}
-.project-github-link{
-  display: inline;
-}
-.project-deployed-link{
-  display: inline;
-}
-.react-activity-calendar>h1{
-    text-align: center;
-    margin-top: 40px;
 }
 
-#github-top-langs{
+.project-card p {
+  margin: 7px;
+}
+
+.project-github-link {
+  display: inline;
+}
+
+.project-deployed-link {
+  display: inline;
+}
+
+.react-activity-calendar>h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+#github-top-langs {
   height: 200px;
   width: 350px;
 }
 
-#My_github_details{
+#My_github_details {
   width: 80%;
   margin: auto;
   gap: 30px;
@@ -287,19 +296,20 @@ margin-top: 20px;
   justify-content: space-evenly;
   margin-top: 45px;
 }
-.calendar{
-  
+
+.calendar {
+
   width: 80%;
-/* margin-top: 20px; */
+  /* margin-top: 20px; */
 }
 
 
-#contact{
+#contact {
   text-align: center;
   margin: 45px;
 }
 
-#contact_inner{
+#contact_inner {
   /* width: 400px; */
   display: flex;
   justify-content: space-evenly;
@@ -309,3 +319,93 @@ margin-top: 20px;
   font-size: 25px;
 }
 
+
+/* ////small screens */
+@media all and (min-width:200px) and (max-width:800px) {
+  #home {
+    flex-direction: column;
+    height:1200px;
+    /* border: 1px solid red; */
+    margin-left: 160px;
+    margin: auto;
+  }
+
+  #about {
+    flex-direction: column;
+    height: auto;
+    /* margin-top: 400px; */
+    margin: auto;
+  }
+
+  #skills {
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+    margin: auto;
+  }
+
+  #projects {
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+    margin: auto;
+  }
+
+  #My_github_details {
+    /* grid-template-columns: repeat(1, 1fr); */
+    flex-direction: column;
+    height: auto;
+    margin: auto;
+  }
+
+  #contact_inner {
+    flex-direction: column;
+    height: auto;
+    margin: auto;
+  }
+
+}
+
+/* medium screen */
+@media all and (min-width:801px) and (max-width:1024px) {
+  #home {
+    flex-direction: column;
+    height: 1050px;
+    /* margin-left: 160px; */
+    /* border: 1px solid green; */
+    margin: auto;
+  }
+
+
+  #about {
+    flex-direction: column;
+    height: auto;
+    /* margin-top: 400px; */
+    margin: auto;
+  }
+
+  #skills {
+    /* flex-direction: column; */
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    margin: auto;
+  }
+
+  #projects {
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    margin: auto;
+  }
+
+  #My_github_details {
+    /* grid-template-columns: repeat(2, 1fr); */
+    flex-direction: column;
+    height: auto;
+    margin: auto;
+  }
+
+  #contact_inner {
+    flex-direction: column;
+    height: auto;
+    margin: auto;
+  }
+
+}
