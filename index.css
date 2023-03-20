@@ -253,16 +253,16 @@ nav ul li a:hover::after {
 
 #photo {
   width: 20%;
-  height: 50px;
+  height: 70px;
   /* border: 1px solid grey ; */
   /* margin-top: ; */
-  margin-left: 10%;
+  margin-left: 25%;
   border-radius: 5px;
 }
 
 #photo img {
   height: 400px;
-  width: 320px;
+  width: 330px;
   border-radius: 10%;
 }
 
@@ -440,7 +440,7 @@ nav ul li a:hover::after {
   text-align: center;
   margin-top: 30px;
   font-weight: 400;
-  gap: 1rem;
+  gap: 10rem;
 }
 
 
