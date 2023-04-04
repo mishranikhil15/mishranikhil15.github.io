@@ -13,38 +13,9 @@ body {
 
 
 
-/* #nav-menu {
-  position: fixed;
-  width: 100%;
-  height: 60px;
-  /* border: 1px solid grey; */
-/* display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: large;
-  background-color: rgb(32, 32, 74); */
 
-/* } */
+ */
 
-/* #nav-menu a {
-  margin-left: 20px;
-} */
-*/
-/* #in {
-  display: flex;
-  justify-content: space-evenly;
-  margin-right: 40px;
-} */
-
-/* #in div a {
-  margin: 15px;
-  padding: 10px;
-
-} */
-
-/* #port>a {
-  font-size: x-large;
-} */
 
 #nav-menu {
   width: 100%;
@@ -153,7 +124,7 @@ nav ul li a:hover::after {
   width: 100%;
   height: 500px;
   /* border: 1px solid yellow; */
-  margin-top: 100px;
+  margin-top: 90px;
   display: flex;
 
 }
@@ -216,6 +187,11 @@ nav ul li a:hover::after {
   width: 90%;
   font-family: serif;
 } */
+
+#bsi>p{
+  margin-bottom: 8px;
+}
+
 .container {
   margin-top: -5%;
 
@@ -223,7 +199,7 @@ nav ul li a:hover::after {
 
 .container p {
   font-size: 20px;
-  margin-top: 35px;
+  margin-top: 48px;
 
 }
 
@@ -322,7 +298,8 @@ nav ul li a:hover::after {
 }
 
 #skills {
-  width: 80%;
+  width: 60%;
+  /* border: 1px solid red; */
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -342,7 +319,7 @@ nav ul li a:hover::after {
 
 .skills-card img {
   display: block;
-  width: 200px;
+  width: 150px;
   margin: 15px;
   margin-left: 35px;
   text-align: center;
@@ -356,17 +333,17 @@ nav ul li a:hover::after {
   margin: 20px;
 }
 
-#projects {
-  width: 80%;
+ #projects {
+  width: 75%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   margin: auto;
-  /* text-align: center; */
-  /* align-items: center; */
+   text-align: center; 
+   align-items: center; 
 
-}
+} 
 
 .project-card {
   text-align: center;
@@ -397,7 +374,21 @@ nav ul li a:hover::after {
 
 .project-deployed-link {
   display: inline;
+} 
+
+.probtn1{
+  margin-right: 80px;
+  padding: 8px;
+  border-radius: 6px;
 }
+
+.probtn2{
+  width: 60px;
+  margin-left: 40px;
+  padding: 8px;
+  border-radius: 6px;
+}
+
 
 .react-activity-calendar>h1 {
   text-align: center;
