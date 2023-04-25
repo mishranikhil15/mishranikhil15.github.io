@@ -1,9 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
-
 }
 
 body {
@@ -11,18 +10,11 @@ body {
   color: #fff;
 }
 
-
-
-
- */
-
-
-#nav-menu {
+*/ #nav-menu {
   width: 100%;
   height: auto;
   padding: 10px 10%;
   position: fixed;
-  
 }
 
 nav {
@@ -56,7 +48,7 @@ nav ul li a {
 }
 
 nav ul li a::after {
-  content: '';
+  content: "";
   width: 0;
   height: 3px;
   background-color: rgb(97, 223, 97);
@@ -70,7 +62,7 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-@media screen and (min-width:320px) and (max-width:650px) {
+@media screen and (min-width: 320px) and (max-width: 650px) {
   nav .fas {
     display: block;
     font-size: 22px;
@@ -85,7 +77,6 @@ nav ul li a:hover::after {
   }
 
   nav ul {
-
     position: fixed;
     top: 0;
     right: -200px;
@@ -112,13 +103,10 @@ nav ul li a:hover::after {
 /* nav bar css end */
 
 #main-cont {
-
   width: 100%;
   /* border: 1px solid white; */
   height: 1200px;
 }
-
-
 
 #home {
   width: 100%;
@@ -126,19 +114,16 @@ nav ul li a:hover::after {
   /* border: 1px solid yellow; */
   margin-top: 90px;
   display: flex;
-
 }
 
-#home>#hlf {
-
+#home > #hlf {
   width: 55%;
   height: fit-content;
   /* border: 1px solid grey; */
   margin-bottom: 1rem;
-
 }
 
-#hlf>#hl {
+#hlf > #hl {
   width: 80%;
   margin-left: 10%;
   margin-top: 10%;
@@ -166,7 +151,6 @@ nav ul li a:hover::after {
 
 #hlf h1 {
   font-size: 65px;
-
 }
 
 #hlf h2 {
@@ -174,13 +158,10 @@ nav ul li a:hover::after {
   font-family: serif;
 }
 
-
-#home>#hr {
-
+#home > #hr {
   width: 45%;
   height: 100%;
   /* border: 1px solid grey; */
-
 }
 
 /* #para{
@@ -188,19 +169,17 @@ nav ul li a:hover::after {
   font-family: serif;
 } */
 
-#bsi>p{
+#bsi > p {
   margin-bottom: 8px;
 }
 
 .container {
   margin-top: -5%;
-
 }
 
 .container p {
   font-size: 20px;
   margin-top: 48px;
-
 }
 
 .container button {
@@ -211,25 +190,23 @@ nav ul li a:hover::after {
 
 .basicinfo {
   margin-top: 25px;
-
 }
 
-.basicinfo>#github-contact {
+.basicinfo > #github-contact {
   margin: 0px 25px 0px 0px;
 }
 
-.basicinfo>#linkedin-contact {
+.basicinfo > #linkedin-contact {
   margin: 0px 25px 0px 0px;
   font-size: larger;
 }
 
-.basicinfo a{
+.basicinfo a {
   text-decoration: none;
   color: aliceblue;
 }
 
-
-#bsi>p {
+#bsi > p {
   font-size: 38px;
 }
 
@@ -251,7 +228,6 @@ nav ul li a:hover::after {
 #aboutme {
   text-align: center;
   margin-bottom: 40px;
-
 }
 
 #resume-button-2 {
@@ -271,9 +247,7 @@ nav ul li a:hover::after {
   text-align: center;
   align-items: center;
   background-color: #434343;
-
 }
-
 
 .positive img {
   /* margin: 30px;
@@ -307,7 +281,6 @@ nav ul li a:hover::after {
   margin: auto;
   /* text-align: center; */
   /* align-items: center; */
-
 }
 
 .skills-card {
@@ -325,25 +298,24 @@ nav ul li a:hover::after {
   text-align: center;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-
 }
 
 #pro {
   text-align: center;
   margin: 20px;
+  padding: 1rem;
 }
 
- #projects {
+#proj {
   width: 75%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   margin: auto;
-   text-align: center; 
-   align-items: center; 
-
-} 
+  text-align: center;
+  align-items: center;
+}
 
 .project-card {
   text-align: center;
@@ -352,12 +324,21 @@ nav ul li a:hover::after {
   border-radius: 20px;
 }
 
+.project-card div:first-child{
+min-height: 12rem;
+}
 .project-card img {
   width: 100%;
-  height: 400px;
+  object-fit: contain;
+  /* height: 400px; */
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   border-radius: 10px;
   padding: 5px;
+}
+
+.project-card img:hover{
+  transform: scale(130%);
+  transition: all 1.7s ease-in-out;
 }
 
 .project-card h3 {
@@ -374,23 +355,22 @@ nav ul li a:hover::after {
 
 .project-deployed-link {
   display: inline;
-} 
+}
 
-.probtn1{
+.probtn1 {
   margin-right: 80px;
   padding: 8px;
   border-radius: 6px;
 }
 
-.probtn2{
+.probtn2 {
   width: 60px;
   margin-left: 40px;
   padding: 8px;
   border-radius: 6px;
 }
 
-
-.react-activity-calendar>h1 {
+.react-activity-calendar > h1 {
   text-align: center;
   margin-top: 40px;
   /* border: 1px solid red; */
@@ -401,8 +381,7 @@ nav ul li a:hover::after {
   width: 350px; */
 /* } */
 
- #My_github_details {
-
+#My_github_details {
   width: 80%;
   margin: auto;
   gap: 30px;
@@ -411,15 +390,12 @@ nav ul li a:hover::after {
   margin-top: 45px;
   margin-top: 1rem;
   margin-bottom: 1rem;
-
 }
 
 .calendar {
-
   width: 90%;
   /* margin-top: 20px; */
 }
-
 
 #contact {
   display: flex;
@@ -439,14 +415,13 @@ nav ul li a:hover::after {
   font-weight: 400;
   gap: 3rem;
 }
-#contact_inner a{
+#contact_inner a {
   text-decoration: none;
   color: #fff;
 }
 
-
 /* ////small screens */
-@media all and (min-width:200px) and (max-width:800px) {
+@media all and (min-width: 200px) and (max-width: 800px) {
   #home {
     flex-direction: column;
     height: 1200px;
@@ -463,7 +438,7 @@ nav ul li a:hover::after {
     width: 90%;
   }
 
-  #home>#hlf {
+  #home > #hlf {
     width: auto;
   }
 
@@ -480,7 +455,7 @@ nav ul li a:hover::after {
     margin: auto;
   }
 
-  #projects {
+  #proj {
     grid-template-columns: repeat(1, 1fr);
     height: auto;
     margin: auto;
@@ -499,7 +474,6 @@ nav ul li a:hover::after {
     flex-direction: column;
     height: auto;
     margin: auto;
-    
   }
 
   .positive img {
@@ -508,7 +482,7 @@ nav ul li a:hover::after {
 }
 
 /* medium screen */
-@media all and (min-width:801px) and (max-width:1024px) {
+@media all and (min-width: 801px) and (max-width: 1024px) {
   #home {
     flex-direction: column;
     height: 1050px;
@@ -521,10 +495,9 @@ nav ul li a:hover::after {
     width: -webkit-fill-available;
   }
 
-  #home>#hlf {
+  #home > #hlf {
     width: auto;
   }
-
 
   #about {
     flex-direction: column;
@@ -540,7 +513,7 @@ nav ul li a:hover::after {
     margin: auto;
   }
 
-  #projects {
+  #proj {
     grid-template-columns: repeat(2, 1fr);
     height: auto;
     margin: auto;
@@ -559,7 +532,6 @@ nav ul li a:hover::after {
     flex-direction: column;
     height: auto;
     margin: auto;
-    
   }
 
   .positive img {
