@@ -271,7 +271,7 @@ nav ul li a:hover::after {
   margin-top: 60px;
 }
 
-#skills {
+#skills,#tools {
   width: 60%;
   /* border: 1px solid red; */
   margin: auto;
@@ -299,6 +299,9 @@ nav ul li a:hover::after {
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
+
+
+
 
 #pro {
   text-align: center;
@@ -449,7 +452,7 @@ min-height: 12rem;
     margin: auto;
   }
 
-  #skills {
+  #skills,#tools {
     grid-template-columns: repeat(1, 1fr);
     height: auto;
     margin: auto;
@@ -506,7 +509,7 @@ min-height: 12rem;
     margin: auto;
   }
 
-  #skills {
+  #skills,#tools {
     /* flex-direction: column; */
     grid-template-columns: repeat(2, 1fr);
     height: auto;
