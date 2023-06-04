@@ -10,11 +10,13 @@ body {
   color: #fff;
 }
 
-*/ #nav-menu {
+ #nav-menu {
   width: 100%;
   height: auto;
-  padding: 10px 10%;
+  padding: 10px 5%;
   position: fixed;
+  /* border: 1px solid red; */
+  margin-top: -6%;
 }
 
 nav {
@@ -62,7 +64,13 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-@media screen and (min-width: 320px) and (max-width: 650px) {
+@media screen and (min-width: 280px) and (max-width: 700px) {
+  
+  #nav-menu{
+    margin-top: 0%;
+  }
+  
+  
   nav .fas {
     display: block;
     font-size: 22px;
