@@ -40,7 +40,7 @@ nav .fas {
 nav ul li {
   display: inline-block;
   list-style: none;
-  margin: 10px 20px;
+  margin: 10px 10px;
 }
 
 nav ul li a {
@@ -451,6 +451,9 @@ min-height: 12rem;
   #home > #hlf {
     width: auto;
   }
+  #bsi>p{
+    padding-top: 7%;
+  }
 
   #about {
     flex-direction: column;
@@ -507,6 +510,10 @@ min-height: 12rem;
 
   #home > #hlf {
     width: auto;
+  }
+
+  #bsi>p{
+    padding-top: 7%;
   }
 
   #about {
