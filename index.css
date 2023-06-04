@@ -15,8 +15,9 @@ body {
   height: auto;
   padding: 10px 5%;
   position: fixed;
+  top:0;
   /* border: 1px solid red; */
-  margin-top: -6%;
+  /* margin-top: -6%; */
 }
 
 nav {
@@ -66,9 +67,7 @@ nav ul li a:hover::after {
 
 @media screen and (min-width: 280px) and (max-width: 650px) {
   
-  #nav-menu{
-    margin-top: 0%;
-  }
+ 
   
   
   nav .fas {
