@@ -16,10 +16,10 @@ var typed = new Typed(".typing", {
  
  document.getElementById('resume-link-1').addEventListener("click",()=>{
     // console.log("OPENinig.....")
-    window.open("https://drive.google.com/file/d/1qGK9ke89SvQEm-e5O23Xnaf2YcZRVsGI/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/drive/folders/1o00FRWV99kVLS-ipE8NlbtYa3E-wULfT?usp=sharing", "_blank");
   })
   
   document.getElementById('resume-link-2').addEventListener("click",()=>{
     // console.log("OPENinig.....")
-    window.open("https://drive.google.com/file/d/1qGK9ke89SvQEm-e5O23Xnaf2YcZRVsGI/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/drive/folders/1o00FRWV99kVLS-ipE8NlbtYa3E-wULfT?usp=sharing", "_blank");
   }) 
